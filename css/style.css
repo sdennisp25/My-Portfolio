@@ -1,0 +1,51 @@
+img {
+	width: 200px;
+	height: 300px;
+	float: left;
+	margin: 0 2% 2% 0;
+	border-radius: 15px;
+}
+
+
+.row {
+	display: inline;
+	box-sizing: border-box;
+}
+h1 {
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+p {
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.container {
+	width: 90%; 
+	margin: 0 auto;
+	box-sizing: border-box;
+}
+
+.jumbotron {
+	margin-top: 2%;
+	padding-top: 20px;
+	box-sizing: border-box;
+
+}
+
+.linkedIn {
+	height: 50px;
+	width: 50px;
+	margin-right: 5%;
+}
+.gitHub {
+	height: 50px;
+	width: 50px;
+}
+
+.proLinks {
+	width: 20%;
+	margin: auto; 
+}
+
+.lastName {
+	color: orange;
+}

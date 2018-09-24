@@ -1,0 +1,14 @@
+
+
+.project {
+	box-sizing: border-box;
+	width: 200px;
+	height: 200px;
+	margin-right: 5%;
+	float: left;
+}
+
+.row {
+	box-sizing: border-box;
+	height: 100%;
+}
