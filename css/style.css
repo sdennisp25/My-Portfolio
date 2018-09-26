@@ -13,6 +13,11 @@ img {
 }
 h1 {
 	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	text-decoration: underline;
+	text-align: center;
+}
+h5 {
+	text-align: center;
 }
 p {
 	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -32,20 +37,27 @@ p {
 }
 
 .linkedIn {
-	height: 50px;
-	width: 50px;
-	margin-right: 5%;
+	height: 30px;
+	width: 30px;
+	margin-right: 1%;
 }
 .gitHub {
-	height: 50px;
-	width: 50px;
-}
-
-.proLinks {
-	width: 20%;
-	margin: auto; 
+	height: 30px;
+	width: 30px;
 }
 
 .lastName {
 	color: orange;
+}
+
+.media {
+	float: right;
+	margin-right: 2%;
+}
+
+.footer {
+	width: 100%;
+	padding: 10px;
+	background-color: rgb(229, 232, 232);
+	text-align: center;
 }
