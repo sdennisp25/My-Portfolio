@@ -28,6 +28,11 @@ p {
 	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+.nav-item:hover {
+	background-color: lightblue;
+	transition: 0.5s ease;
+}
+
 .container {
 	overflow: auto;
 	width: 100%; 
@@ -45,11 +50,11 @@ p {
 .linkedIn {
 	height: 30px;
 	width: 30px;
-	margin-right: 1%;
 }
 .gitHub {
 	height: 30px;
 	width: 30px;
+	margin-left: 40%;
 }
 
 .lastName {

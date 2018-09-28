@@ -23,8 +23,14 @@ img{
 img:hover {
 	opacity: 0.3;
 	transition: 0.5s ease;
-}
+	backface-visibility: hidden;
 
+}
+.nav-item:hover {
+	background-color: lightblue;
+	transition: 0.5s ease;
+
+}
 
 .row {
 	display: inline;
@@ -47,20 +53,22 @@ h5 {
 p {
 	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-.nav-item:hover {
-	background-color: lightblue;
-	transition: 0.5s ease;
 
-}
 .container {
-	overflow: auto;
 	margin: 0 auto;
+	margin-top: 2%;
 	box-sizing: border-box;
+	padding: 10px;
+}
+
+.card {
+	padding: 15px;
+	background-color: peachpuff;
 }
 
 .jumbotron {
 	margin-top: 2%;
-	margin-bottom: 15%;
+	padding-top: 20px;
 	box-sizing: border-box;
 
 }
@@ -68,13 +76,12 @@ p {
 .linkedIn {
 	height: 30px;
 	width: 30px;
-	margin-right: 5%;
+	margin-right: 1%;
 }
 .gitHub {
 	height: 30px;
 	width: 30px;
 	margin-left: 40%;
-
 }
 
 .lastName {
