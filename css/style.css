@@ -6,11 +6,16 @@ img {
 	border-radius: 15px;
 }
 
+#picture {
+	width: 200px;
+	height: 200px;
+}
 
 .row {
 	display: inline;
 	box-sizing: border-box;
 }
+
 h1 {
 	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 	text-decoration: underline;
@@ -24,7 +29,8 @@ p {
 }
 
 .container {
-	width: 90%; 
+	overflow: auto;
+	width: 100%; 
 	margin: 0 auto;
 	box-sizing: border-box;
 }
