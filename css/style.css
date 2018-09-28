@@ -1,4 +1,4 @@
-img {
+#profile-image {
 	width: 200px;
 	height: 300px;
 	float: left;
@@ -9,6 +9,16 @@ img {
 #picture {
 	width: 200px;
 	height: 200px;
+}
+
+img {
+	width: 40px;
+	height: 40px;
+	float: left;
+}
+
+#skills {
+	margin-left: 25%;
 }
 
 .row {
