@@ -1,28 +1,50 @@
 
 
-.project {
+.card {
 	box-sizing: border-box;
-	margin-right: 1.5%;
+	width: 250px;
+	height: 320px;
 	margin-bottom: 5%;
+	margin-right: 2%;
+	box-shadow: 5px 5px grey;
 	float: left;
 }
 
-.row {
-	box-sizing: border-box;
-	height: 100%;
-}
 
 img{
 	width: 200px;
 	height: 200px;
 	float: left;
 	margin: 0 2% 2% 0;
-	border-radius: 15px;
 }
 
-img:hover {
-	opacity: 0.3;
-	transition: 0.5s ease;
+.card:hover .overlay {
+  opacity: 1;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #FA8128;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
 }
 
 
@@ -35,19 +57,13 @@ h1 {
 	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 	text-decoration: underline;
 	text-align: center;
-	margin-bottom: 2%;
+	margin-bottom: 4%;
 }
-h5 {
-	text-align: center;
-	background-color:rgb(0, 0, 0, 0.3);
-  color: white;
-  font-size: 16px;
-	padding: 5px;
-	margin-bottom: 0;
-}
+
 p {
 	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+
 .nav-item:hover {
 	background-color: lightblue;
 	transition: 0.5s ease;
@@ -55,8 +71,10 @@ p {
 }
 .container {
 	overflow: auto;
+	width: 100%;
 	margin: 0 auto;
 	box-sizing: border-box;
+	margin-top: -3%;
 }
 
 .jumbotron {
@@ -85,6 +103,15 @@ p {
 .media {
 	float: right;
 	margin-right: 2%;
+}
+
+.linkedIn:hover {
+	opacity: 0.3;
+	transition: 0.5s ease;
+}
+.gitHub:hover {
+	opacity: 0.3;
+	transition: 0.5s ease;
 }
 
 .footer {

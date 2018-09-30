@@ -6,11 +6,6 @@
 	border-radius: 15px;
 }
 
-#picture {
-	width: 200px;
-	height: 200px;
-}
-
 img {
 	width: 40px;
 	height: 40px;
@@ -67,6 +62,15 @@ p {
 	margin-left: 40%;
 }
 
+.linkedIn:hover {
+	opacity: 0.3;
+	transition: 0.5s ease;
+}
+.gitHub:hover {
+	opacity: 0.3;
+	transition: 0.5s ease;
+}
+
 .lastName {
 	color: orange;
 }
@@ -82,3 +86,5 @@ p {
 	background-color: rgb(229, 232, 232);
 	text-align: center;
 }
+
+/* //////////////////////// */

@@ -1,23 +1,5 @@
-
-
-.project {
-	box-sizing: border-box;
-	margin-right: 1.5%;
-	margin-bottom: 5%;
-	float: left;
-}
-
-.row {
-	box-sizing: border-box;
-	height: 100%;
-}
-
 img{
-	width: 200px;
-	height: 200px;
 	float: left;
-	margin: 0 2% 2% 0;
-	border-radius: 15px;
 }
 
 img:hover {
@@ -43,16 +25,6 @@ h1 {
 	text-align: center;
 	margin-bottom: 2%;
 }
-h5 {
-	text-align: center;
-	background-color:orange;
-  color: white;
-  font-size: 16px;
-  padding: 5px;
-}
-p {
-	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
 
 .container {
 	margin: 0 auto;
@@ -70,7 +42,6 @@ p {
 	margin-top: 2%;
 	padding-top: 20px;
 	box-sizing: border-box;
-
 }
 
 .linkedIn {
@@ -82,10 +53,6 @@ p {
 	height: 30px;
 	width: 30px;
 	margin-left: 40%;
-}
-
-.lastName {
-	color: orange;
 }
 
 .media {
