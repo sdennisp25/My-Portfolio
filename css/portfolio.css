@@ -5,7 +5,7 @@
 	padding: 1px;
 	width: 190px;
 	height: 220px;
-	margin-bottom: 5%;
+	margin-bottom: 2%;
 	margin-right: 2%;
 	box-shadow: 5px 5px grey;
 	float: left;
@@ -41,7 +41,7 @@ img{
 /* hover font effect */
 .text {
   color: white;
-  font-size: 15px;
+  font-size: 12px;
   position: absolute;
   top: 35%;
   left: 50%;
