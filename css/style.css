@@ -1,17 +1,9 @@
-#profile-image {
-  width: 200px;
-  height: 300px;
-  float: left;
-  margin: 0 2% 2% 0;
-  border-radius: 15px;
-}
-
 body {
   background-color: #e3e0dd;
   padding: 0 3% 0 3%;
 }
 h1,
-h2, 
+h2,
 h3 {
   font-family: "Lobster", cursive;
   text-align: center;
@@ -21,8 +13,8 @@ h3 {
 }
 .card-image {
   width: 100%;
-	margin-top: 8.5%;
-	filter: grayscale(0.3);
+  margin-top: 10%;
+  filter: grayscale(0.3);
 }
 
 .card {
@@ -36,31 +28,26 @@ h3 {
 .card-text {
   width: 60%;
 }
-.card-action {
-  margin: auto;
-}
 
 .nav-wrapper {
   background-color: black;
 }
 
-#skills {
-  margin-left: 25%;
-  width: 40px;
-}
-
 p {
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
-	font-size: 16px;
-	padding: 0 4% 2.5% 4%;
+	font-family: 'EB Garamond', serif;
+  font-size: 18px;
+  padding: 0 4% 2.5% 4%;
 }
 
-.github {
-  width: 10%;
+.gitHub {
+  width: 5%;
 }
-.linkedin {
-  width: 10%;
+.linkedIn {
+  width: 5%;
+}
+.media {
+  float: right;
+  margin-right: 2%;
 }
 
 .linkedIn:hover {
@@ -73,7 +60,8 @@ p {
 }
 
 .page-footer {
-  background-color: black;
+	background-color: black;
+	margin-bottom: 0;
   text-align: center;
   padding: 1%;
 }

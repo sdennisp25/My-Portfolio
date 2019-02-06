@@ -1,68 +1,53 @@
-img{
-	float: left;
-}
-
-img:hover {
-	opacity: 0.3;
-	transition: 0.5s ease;
-	backface-visibility: hidden;
-
-}
-.nav-item:hover {
-	background-color: lightblue;
-	transition: 0.5s ease;
-
-}
-
 .row {
-	display: inline;
-	box-sizing: border-box;
+  display: inline;
+  box-sizing: border-box;
+}
+body {
+  background-color: #e3e0dd;
+  padding: 0 3% 0 3%;
 }
 
-h1 {
-	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-	text-decoration: underline;
-	text-align: center;
-	margin-bottom: 2%;
+form {
+  text-align: center;
+  border: 2px solid black;
+  margin: 3% 0 8% 0;
+  padding: 5%;
+  background-color: white;
+  box-shadow: 4px 4px;
 }
 
-.container {
-	margin: 0 auto;
-	margin-top: 2%;
-	box-sizing: border-box;
-	padding: 10px;
+h1,
+h2,
+h3 {
+  font-family: "Lobster", cursive;
+  text-align: center;
+  text-decoration: underline;
+  margin-top: 1%;
+  font-weight: bold;
 }
 
-.card {
-	padding: 15px;
-	background-color: peachpuff;
+.nav-wrapper {
+  background-color: black;
 }
 
-.jumbotron {
-	margin-top: 2%;
-	padding-top: 20px;
-	box-sizing: border-box;
-}
-
-.linkedIn {
-	height: 30px;
-	width: 30px;
-	margin-right: 1%;
+/* .linkedIn {
+  height: 30px;
+  width: 30px;
+  margin-right: 1%;
 }
 .gitHub {
-	height: 30px;
-	width: 30px;
-	margin-left: 40%;
+  height: 30px;
+  width: 30px;
+  margin-left: 40%;
 }
 
 .media {
-	float: right;
-	margin-right: 2%;
-}
+  float: right;
+  margin-right: 2%;
+} */
 
-.footer {
-	width: 100%;
-	padding: 10px;
-	background-color: rgb(229, 232, 232);
-	text-align: center;
+.page-footer {
+  background-color: black;
+  text-align: center;
+  padding: 1%;
 }
