@@ -5,11 +5,13 @@ class Portfolio extends Component {
   render() {
     return (
       <React.Fragment>
+        <h2>Solo Projects</h2>
+
         <div class="row">
           <div class="col s12 m2">
             <div class="card">
               <div class="card-image">
-                <img src="./images/Giphy API.png" />
+                <img src={require("../../images/Giphy API.png")} />
               </div>
               <div class="card-content">
                 <a
@@ -26,7 +28,7 @@ class Portfolio extends Component {
           <div class="col s12 m2">
             <div class="card">
               <div class="card-image">
-                <img src="./images/Psychic Game.png" />
+                <img src={require("../../images/Psychic Game.png")} />
               </div>
               <div class="card-content">
                 <a
@@ -46,7 +48,7 @@ class Portfolio extends Component {
           <div class="col s12 m2">
             <div class="card">
               <div class="card-image">
-                <img src="./images/SWgame.png" />
+                <img src={require("../../images/SWgame.png")} />
               </div>
               <div class="card-content">
                 <a
@@ -63,7 +65,7 @@ class Portfolio extends Component {
           <div class="col s12 m2">
             <div class="card">
               <div class="card-image">
-                <img src="./images/SWhangman.png" />
+							<img src={require("../../images/SWhangman.png")} />
               </div>
               <div class="card-content">
                 <a
@@ -80,7 +82,7 @@ class Portfolio extends Component {
           <div class="col s12 m2">
             <div class="card">
               <div class="card-image">
-                <img src="./images/Train Timesheet.png" />
+							<img src={require("../../images/Train Timesheet.png")} />
               </div>
               <div class="card-content">
                 <a
@@ -100,7 +102,7 @@ class Portfolio extends Component {
           <div class="col s12 m2">
             <div class="card">
               <div class="card-image">
-                <img src="./images/Trivia Survey.png" />
+							<img src={require("../../images/Trivia Survey.png")} />
               </div>
               <div class="card-content">
                 <a
@@ -122,7 +124,7 @@ class Portfolio extends Component {
           <div class="col s12 m2">
             <div class="card">
               <div class="card-image">
-                <img src="./images/eatdaburger.png" />
+							<img src={require("../../images/eatdaburger.png")} />
               </div>
               <div class="card-content">
                 <a
@@ -139,7 +141,7 @@ class Portfolio extends Component {
           <div class="col s12 m2">
             <div class="card">
               <div class="card-image">
-                <img src="./images/friendfinder.png" />
+							<img src={require("../../images/friendfinder.png")} />
               </div>
               <div class="card-content">
                 <a
@@ -153,26 +155,6 @@ class Portfolio extends Component {
               </div>
             </div>
           </div>
-          <div class="col s12 m2">
-            <div class="card">
-              <div class="card-image">
-                <img src="./images/liri.png" />
-              </div>
-              <div class="card-content">
-                <a
-                  class="image"
-                  href="https://github.com/sdennisp25/liri-node-app"
-                  target="_blank"
-                >
-                  <span class="card-title">Liri</span>
-                </a>
-                <p>
-                  Before you begin, you would have to supply your own .env file
-                  to work! Check out the README.md file!
-                </p>
-              </div>
-            </div>
-          </div>
         </div>
 
         <h2>Team Projects</h2>
@@ -180,7 +162,7 @@ class Portfolio extends Component {
           <div class="col s12 m2">
             <div class="card">
               <div class="card-image">
-                <img src="./images/fixedsigns.png" />
+							<img src={require("../../images/fixedsigns.png")} />
               </div>
               <div class="card-content">
                 <a
@@ -200,7 +182,7 @@ class Portfolio extends Component {
           <div class="col s12 m2">
             <div class="card">
               <div class="card-image">
-                <img src="./images/Banksys.png" />
+							<img src={require("../../images/Banksys.png")} />
               </div>
               <div class="card-content">
                 <a
@@ -221,7 +203,7 @@ class Portfolio extends Component {
           <div class="col s12 m2">
             <div class="card">
               <div class="card-image">
-                <img src="./images/alleyart.png" />
+							<img src={require("../../images/alleyart.png")} />
               </div>
               <div class="card-content">
                 <a
@@ -235,6 +217,30 @@ class Portfolio extends Component {
                   I am a very simple card. I am good at containing small bits of
                   information. I am convenient because I require little markup
                   to use effectively.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <h2>Websites</h2>
+        <div class="row">
+          <div class="col s12 m2">
+            <div class="card">
+              <div class="card-image">
+							{/* <img src={require("../../images/JunctionDanceCo.png")} /> */}
+              </div>
+              <div class="card-content">
+                <a
+                  class="image"
+                  href="https://sdennisp25.github.io/fixedsigns/"
+                  target="_blank"
+                >
+                  <span class="card-title">Junction Dance Co</span>
+                </a>
+                <p>
+                  This is an application that helps people match with eachother,
+                  based on your zodiac sign!
                 </p>
               </div>
             </div>

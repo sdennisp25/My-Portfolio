@@ -11,57 +11,21 @@ h3 {
   margin-top: 1%;
   font-weight: bold;
 }
-.card-image {
-  width: 100%;
-  margin-top: 10%;
-  filter: grayscale(0.3);
+
+p {
+	font-family: 'EB Garamond', serif;
+	font-size: 18px;
+	padding: 0 4% 2.5% 4%;
 }
 
-.card {
-  margin: 4% 0 7% 0;
+.my-photo {
+	width: 100%;
+	padding: 1%;
+	background-color: white;
+	margin-top: 1%;
+	filter: grayscale(0.4);
 }
 
 .brand-logo {
   padding: 5px;
-}
-
-.card-text {
-  width: 60%;
-}
-
-.nav-wrapper {
-  background-color: black;
-}
-
-p {
-	font-family: 'EB Garamond', serif;
-  font-size: 18px;
-  padding: 0 4% 2.5% 4%;
-}
-
-.gitHub {
-  width: 5%;
-}
-.linkedIn {
-  width: 5%;
-}
-.media {
-  float: right;
-  margin-right: 2%;
-}
-
-.linkedIn:hover {
-  opacity: 0.3;
-  transition: 0.5s ease;
-}
-.gitHub:hover {
-  opacity: 0.3;
-  transition: 0.5s ease;
-}
-
-.page-footer {
-	background-color: black;
-	margin-bottom: 0;
-  text-align: center;
-  padding: 1%;
 }

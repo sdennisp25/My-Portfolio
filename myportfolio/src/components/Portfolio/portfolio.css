@@ -4,32 +4,6 @@
 
 .card {
   height: 100%;
-  margin-bottom: 15%;
-}
-
-body {
-	background-color: #e3e0dd;
-	padding: 0 3% 0 3%;
-}
-
-img {
-  height: 150px;
-}
-p {
-  height: 100%;
-}
-
-h1, h2 {
-  font-family: "Lobster", cursive;
-  text-align: center;
-	text-decoration: underline;
-	margin-top: 1%;
-}
-
-.page-footer {
-  background-color: black;
-  text-align: center;
-	padding: 1%;
 }
 
 .row {
