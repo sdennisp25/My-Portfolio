@@ -1,23 +1,26 @@
 import React, { Component } from "react";
 import Media from "../Media";
-import MyPhoto from "../../images/MyClassPhoto.jpg";
 import "./intro.css";
 
 class Intro extends Component {
   render() {
     return (
       <React.Fragment>
-        <div class="card-action">
+        <div className="card-action">
           <div className="row">
             <div className="col s3">
-              <img src={MyPhoto} class="my-photo" />
+              <img
+                src={require("../../images/MyClassPhoto.jpg")}
+                className="my-photo"
+                alt="Headshot"
+              />
               <Media />
             </div>
             <div className="col s9">
-              <div class="card">
-                <div class="card-content" />
+              <div className="card">
+                <div className="card-content" />
                 <h3>About Me</h3>
-                <div class="card-action" />
+                <div className="card-action" />
 
                 <p>
                   My name is Sipha Phaophongsavath! I also go by Dennis. I am

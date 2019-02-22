@@ -5,10 +5,10 @@ class Header extends Component {
   render() {
     return (
       <nav>
-        <div class="nav-wrapper">
-          <a href="#" class="brand-logo center">
+        <div className="nav-wrapper">
+          <div className="brand-logo center">
             My Portfolio
-          </a>
+          </div>
         </div>
       </nav>
     );

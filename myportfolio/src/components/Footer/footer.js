@@ -4,8 +4,8 @@ import "./footer.css";
 class Footer extends Component {
   render() {
     return (
-      <footer class="page-footer">
-        <div class="container">© 2019 My Portfolio</div>
+      <footer className="page-footer">
+        <div className="container">© 2019 My Portfolio</div>
       </footer>
     );
   }
