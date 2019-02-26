@@ -252,13 +252,12 @@ class Portfolio extends Component {
               <div className="card-content">
                 <a
                   className="image"
-                  href="https://sdennisp25.github.io/fixedsigns/"
+                  href="https://sdennisp25.github.io/Junction-Website/#/"
                 >
                   <span className="card-title">Junction Dance Co</span>
                 </a>
                 <p>
-                  This is an application that helps people match with eachother,
-                  based on your zodiac sign!
+                  This is a website built for a Non-Profit Organization!
                 </p>
               </div>
             </div>
