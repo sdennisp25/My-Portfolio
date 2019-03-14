@@ -2,11 +2,108 @@
   background-color: black;
 }
 
-.card {
+.project1,
+.project2,
+.project3,
+.project4,
+.project5,
+.project6,
+.project7,
+.project8,
+.project9,
+.project10,
+.project11, 
+.project12 {
+  background-repeat: no-repeat;
+	background-size: cover;
+  width: 100%;
   height: 100%;
+  margin: 0;
+	z-index: 1;
+
+  opacity: 0;
+  transition: .5s ease;
+	background-color: #008CBA;
 }
 
-.row {
-	background-color: rgb(0, 0, 0, 0.2);
-	padding: 1%;
+.card-gallery:hover .overlay {
+	opacity: 1;
 }
+
+.text {
+	font-family: 'Anton', sans-serif;
+	font-weight: bold;
+  color: black;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
+.project1 {
+  background-image: url(../../images/Giphy\ API.png);
+}
+.project2 {
+  background-image: url(../../images/Psychic\ Game.png);
+}
+.project3 {
+  background-image: url(../../images/SWgame.png);
+}
+.project4 {
+  background-image: url(../../images/SWhangman.png);
+}
+.project5 {
+  background-image: url(../../images/Train\ Timesheet.png);
+}
+.project6 {
+  background-image: url(../../images/Trivia\ Survey.png);
+}
+.project7 {
+  background-image: url(../../images/eatdaburger.png);
+}
+.project8 {
+  background-image: url(../../images/friendfinder.png);
+}
+.project9 {
+  background-image: url(../../images/fixedsigns.png);
+}
+.project10 {
+  background-image: url(../../images/Banksys.png);
+}
+.project11 {
+  background-image: url(../../images/alleyart.png);
+}
+.project12 {
+  background-image: url(../../images/logo.png);
+}
+
+
+
+
+
+.card-gallery{
+	height: 200px;
+	background-color: rgb(130,3,0,0.5);
+
+}
+
+
+.row {
+  background-color: rgb(0, 0, 0, 0.4);
+  padding: 1%;
+}
+
+h4 {
+  background-color: white;
+  box-shadow: 2px 2px 2px gray;
+  padding: 1%;
+  margin: 0 auto;
+  margin-bottom: 1%;
+  width: 98.5%;
+}
+

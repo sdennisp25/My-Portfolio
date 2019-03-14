@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Media from "../Media";
+// import Media from "../Media";
 import "./intro.css";
 
 class Intro extends Component {
@@ -14,7 +14,7 @@ class Intro extends Component {
                 className="my-photo"
                 alt="Headshot"
               />
-              <Media />
+              {/* <Media /> */}
             </div>
             <div className="col s9">
               <div className="card">
