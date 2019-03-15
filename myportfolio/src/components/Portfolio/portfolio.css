@@ -82,17 +82,10 @@
   background-image: url(../../images/logo.png);
 }
 
-
-
-
-
 .card-gallery{
 	height: 200px;
-	background-color: rgb(130,3,0,0.5);
-
+	background-color: rgb(156, 133, 2);
 }
-
-
 .row {
   background-color: rgb(0, 0, 0, 0.4);
   padding: 1%;

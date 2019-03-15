@@ -12,7 +12,7 @@ class Header extends Component {
   }
   resumeClick() {
     window.location.assign(
-      "https://drive.google.com/file/d/1Kd6gf_-ejBjzBIHQt0NbONQAh6Wynlqv/view"
+      "https://drive.google.com/file/d/1kN71KrmvOzyC8YQd63JIcbajpNUXTjto/view?usp=sharing"
     );
   }
 
@@ -23,13 +23,19 @@ class Header extends Component {
           <div className="brand-logo center">My Portfolio</div>
           <ul id="nav-mobile" class="right hide-on-med-and-down">
             <li>
-              <a onClick={this.linkedInClick.bind(this)}>LinkedIn</a>
+              <div className="button" onClick={this.linkedInClick.bind(this)}>
+                LinkedIn
+              </div>
             </li>
             <li>
-              <a onClick={this.githubClick.bind(this)}>GitHub</a>
+              <div className="button" onClick={this.githubClick.bind(this)}>
+                GitHub
+              </div>
             </li>
             <li>
-              <a onClick={this.resumeClick.bind(this)}>Resume</a>
+              <div className="button" onClick={this.resumeClick.bind(this)}>
+                Resume
+              </div>
             </li>
           </ul>
         </div>
