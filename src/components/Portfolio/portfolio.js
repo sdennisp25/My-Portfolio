@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-
 import "./portfolio.css";
 
 class Portfolio extends Component {
@@ -8,7 +7,6 @@ class Portfolio extends Component {
       <React.Fragment>
         <div className="row">
           <h4>Solo Projects</h4>
-
           <div className="col s12 m3">
             <div className="card card-gallery">
               <a href="https://sdennisp25.github.io/Giphy-Project/">
@@ -96,7 +94,7 @@ class Portfolio extends Component {
           <div className="col s12 m4">
             <div className="card card-gallery">
               <a href="https://dry-woodland-92986.herokuapp.com/">
-							<div className="text">Banksys</div>
+                <div className="text">Banksys</div>
 
                 <div className="project10 overlay" />
               </a>
